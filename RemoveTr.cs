@@ -6,7 +6,7 @@ namespace RemoveTrFromHtmlTemplate.HelperClass
 {
     public static class RemoveTr
     {
-        public static void RemoveTrByIdFromHtml()
+        public static void RemoveTrTag()
         {
             string filePath = HttpContext.Current.Server.MapPath("~/JobChunkEmailTemplate.html");
             StringBuilder sbMailTemplate = new StringBuilder();
